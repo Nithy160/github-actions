@@ -42,3 +42,4 @@ jobs:
           image: nithyananthansekar/springbootgithubaction
           registry: docker.io
           tags: latest
+          push: true
