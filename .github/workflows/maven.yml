@@ -37,7 +37,8 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-         # dockerfile: Dockerfile
+          dockerfile: Dockerfile
+          context: .
           image: nithyananthansekar/springbootgithubaction
           registry: docker.io
           tags: latest
